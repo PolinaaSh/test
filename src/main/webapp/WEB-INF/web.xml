@@ -6,6 +6,11 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>hello</servlet-name>
-    <servlet-class></servlet-class>
+    <servlet-class>Hello</servlet-class>
   </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
 </web-app>
